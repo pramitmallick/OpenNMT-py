@@ -1,3 +1,6 @@
+Runs - 
+1. python train.py -data data/iwslt15 -save_model iwslt-model -input_feed 0 -encoder_type brnn -global_attention mlp -learning_rate 1 -learning_rate_decay 0.25 -gpu_ranks 0
+
 # OpenNMT-py: Open-Source Neural Machine Translation
 
 [![Build Status](https://travis-ci.org/OpenNMT/OpenNMT-py.svg?branch=master)](https://travis-ci.org/OpenNMT/OpenNMT-py)
